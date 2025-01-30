@@ -1,0 +1,81 @@
+/* Style global pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Conteneur principal pour le formulaire */
+.form-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style du formulaire */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Style des champs de saisie de fichiers */
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Bouton de soumission */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style de l'élément de texte d'avertissement (optionnel) */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    resize: none;
+}

@@ -1,0 +1,48 @@
+body{
+    background: url(../images/caro/22.jpg);
+    background-size: cover;
+    backdrop-filter: blur();
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #2c14fc;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #166ff5;
+}

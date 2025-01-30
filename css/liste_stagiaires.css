@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif; 
+    background-color: #f4f6f9;
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.rechercher{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.rechercher input[type="text"]{
+    width: 60%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.rechercher .but{
+    background-color: #0078d7;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.rechercher .but:hover{
+    background-color: #005bb5;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+ .button .butA{
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+.button .butA:hover{
+    background-color: #1e7e34;
+}
+.button .butI{
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button .butI:hover{
+    background-color: #5a6268;
+}
+table{
+    width: 100%;
+}
+.butM{
+    width: 80px;
+    padding: 10px 15px;
+    background-color:rgb(24, 116, 5);
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.butS{
+    width: 80px;
+    padding: 10px 15px;
+    background-color:red;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.rechercher .but{
+    font-weight: bold;
+}
